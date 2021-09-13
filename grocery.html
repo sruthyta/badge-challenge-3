@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grocery Challenge</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <h1 style="margin-left: 43%; font-size: 40px; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; color: black;">Grocery List</h1> 
+       
+       
+ <img src="g.jpg" alt="" style="margin-left: 30%;"><br>
+    <form action="grocery.html">
+    <button style="margin-left: 48% ;"  onclick="">click me</button>
+
+</form>
+<br>
+<div class="container">
+    <div class="table-responsive">
+ <table class="table table-bordered table-striped" id="grocery_table">
+<tr>
+    <th>SerialNo</th>
+    <th>Name</th>
+    <th>Quantity</th>
+    <th>Unit</th>
+    <th>Department</th>
+    <th>Notes</th>
+</tr>
+</table>
+</div>
+    </div> 
+
+
+
+
+
+
+</body>
+</html>
+
+
+<script>
+    $(document).ready(function(){
+        $.getJSON("grocery.json", function(data){
+var grocery_data = '';
+$.each(data, function(key,value){
+    grocery_data += '<tr>';
+        grocery_data += '<td>'+value.SerialNo+'</td>'
+        grocery_data += '<td>'+value.Name+'</td>'
+        grocery_data += '<td>'+value.Quantity+'</td>'
+        grocery_data += '<td>'+value.Unit+'</td>'
+        grocery_data += '<td>'+value.Department+'</td>'
+        grocery_data += '<td>'+value.Notes+'</td>'
+grocery_data += '</tr>';
+    });
+$('#grocery_table').append(grocery_data);
+
+});
+
+    });
+</script>
+

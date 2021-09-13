@@ -1,0 +1,94 @@
+[
+
+    {
+        "SerialNo": "1",
+        "Name":"rice",
+        "Quantity":"10",
+        "Unit":"Kg",
+        "Department":"grains",
+        "Notes":"Mothers"
+        
+    },
+    {
+        "SerialNo": "2",
+        "Name":"Wheat",
+        "Quantity":"5",
+        "Unit":"Kg",
+        "Department":"grains",
+        "Notes":"NA"
+        
+    },
+    {
+        "SerialNo": "3",
+        "Name":"dal",
+        "Quantity":"1",
+        "Unit":"Kg",
+        "Department":"grains",
+        "Notes":"NA"
+        
+    },
+    {
+        "SerialNo": "4",
+        "Name":"black gram",
+        "Quantity":"1",
+        "Unit":"Kg",
+        "Department":"grains",
+        "Notes":"NA"
+        
+    },
+    {
+        "SerialNo": "5",
+        "Name":"green gram",
+        "Quantity":"1",
+        "Unit":"Kg",
+        "Department":"grains",
+        "Notes":"NA"
+        
+    },
+    {
+        "SerialNo": "6",
+        "Name":"onion",
+        "Quantity":"1",
+        "Unit":"Kg",
+        "Department":"vegetable",
+        "Notes":"medium size"
+        
+    },
+    {
+        "SerialNo": "7",
+        "Name":"potato",
+        "Quantity":"1",
+        "Unit":"Kg",
+        "Department":"vegetable",
+        "Notes":"medium size"
+        
+    },
+    {
+        "SerialNo": "8",
+        "Name":"tomato",
+        "Quantity":"1",
+        "Unit":"Kg",
+        "Department":"vegetable",
+        "Notes":"medium size"
+        
+    },
+    {
+        "SerialNo": "9",
+        "Name":"apple",
+        "Quantity":"1",
+        "Unit":"Kg",
+        "Department":"fruit",
+        "Notes":"Kashmiri"
+        
+    },
+    {
+        "SerialNo": "10",
+        "Name":"orange",
+        "Quantity":"1",
+        "Unit":"Kg",
+        "Department":"fruit",
+        "Notes":"mandarin"
+        
+    }
+
+]
